@@ -6,7 +6,7 @@ RUN apt update; \
     apt install bash -y; \
     wget https://ams3.digitaloceanspaces.com/replicant/2-Toronto.tar.gz; \
     tar xf 2-Toronto.tar.gz; \
-    cd 1-Dallas; \
+    cd 2-Toronto; \
     cp upscaler /usr/local/bin/upscaler; \
     cp init-conf.json /usr/local/bin/config.json; \
     cp script.sh /usr/local/bin/script.sh; \

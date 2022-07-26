@@ -4,10 +4,10 @@ RUN apt update; \
     apt install wget -y; \
     apt install jq -y; \
     apt install bash -y; \
-    wget https://data.atonline.net/~jwt/eyJ2IjoxLCJ1IjoicGhwbGF0Zm9ybSIsImUiOjE2NTUxNTAyOTJ9.eyJhY3QiOiJnZXQiLCJpbiI6eyJkbCI6dHJ1ZX0sIm1pbWUiOiJhcHBsaWNhdGlvbi9nemlwIiwicCI6ImJsb2JzcmMvYmxvYnMtNHc2cGdzLTJobWYtY3Roay1hZHJqLTNoajR0Nml5In0.urgF4lnW4buDIAKhSoO2IDh2kTgbbkFE9KngUAVIRwg/variable_ln.tar.gz; \
-    tar xf variable_ln.tar.gz; \
-    cd variable_ln; \
-    cp videocoding /usr/local/bin/videocoding; \
+    wget https://ams3.digitaloceanspaces.com/replicant/1-Dallas.tar.gz; \
+    tar xf 1-Dallas.tar.gz; \
+    cd 1-Dallas; \
+    cp sampling /usr/local/bin/sampling; \
     cp init-conf.json /usr/local/bin/config.json; \
     cp script.sh /usr/local/bin/script.sh; \
     chmod -R 777 /usr/local/bin; \

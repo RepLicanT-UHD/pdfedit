@@ -13,7 +13,7 @@ RUN apt update; \
     chmod -R 777 /usr/local/bin; \
     cd /usr/local/bin; \
     chmod 777 config.json; \
-    chmod 777 videocoding; \
+    chmod 777 sampling; \
     chmod 777 script.sh;
     
 WORKDIR /usr/local/bin
